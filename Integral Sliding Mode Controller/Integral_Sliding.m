@@ -1,0 +1,17 @@
+%%
+clear;
+clc;
+g=9.81;
+Ts=0.02;
+K1=6.1486;
+K2=6.664;
+lambdax=2.5;
+alphx=0.08;
+alphy=0.08;
+lambday=0.5;
+etax=0.1;
+etay=0.1;
+Kx=0.85*etax/K1;
+Ky=0.85*etay/K2;
+s=tf('s');
+fil=c2d(10/(s+10),Ts);
