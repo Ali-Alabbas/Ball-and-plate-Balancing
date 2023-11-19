@@ -5,6 +5,10 @@ The platform is shown in the below figure. It is a 6-DoF stewart platform, which
 ![platform2](https://github.com/Ali-Alabbas/Ball-and-plate-Balancing/assets/127343500/526c6ab2-5e6f-408d-a69a-713cd6e4317e)
 
 
-The repository contains multiple folders. The inv_kin is the MATLAB script  for calculating the inverse kinematic model of the Stewart platform. The Angle2Duty.m file is to calculate the duty cycle of each of the six motors used to drive the platform. The other three folders namely: "PID Controller", "Integral Sliding Mode Controller" and "Super Twisting Controller" contain information concerning each of the control strategies we applied in controlling the system. Each folder includes the uploaded Simulink model in addition to the MATLAB script file containing the calculations of each controller parameters.
+The repository contains multiple folders. The inv_kin is the MATLAB script  for calculating the inverse kinematic model of the Stewart platform. The Angle2Duty.m file is to calculate the duty cycle of each of the six motors used to drive the platform.
+The full simulink model is shown below.
+![sumlink](https://github.com/Ali-Alabbas/Ball-and-plate-Balancing/assets/127343500/b3de0401-2a7b-4430-b898-b68a909b6701)
+
+The other three folders namely: "PID Controller", "Integral Sliding Mode Controller" and "Super Twisting Controller" contain information concerning each of the control strategies we applied in controlling the system. Each folder includes the uploaded Simulink model in addition to the MATLAB script file containing the calculations of each controller parameters.
 
 We recommend using Matlab 2020 equipped with the "Simulink support package for Raspberry Pi" to ensure full view of the uploaded Simulink models. 
